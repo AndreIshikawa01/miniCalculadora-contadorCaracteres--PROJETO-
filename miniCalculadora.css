@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+#projetos{
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#miniCalculadora{
+    width: 40%;
+    height: 300px;
+    border: 1px solid blue;
+}
+
+.numeros{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 20px;
+}
+input{
+    width: 40%;
+    height: 40px;
+}
+
+
+button{
+    width: 10%;
+    height: 40px;
+}
+
+.operadores1{
+    display: flex;
+    padding-top: 20px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.operadores2{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+#contadorNumeros{
+    width: 40%;
+    height: 300px;
+    border: 1px solid blue;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+#input{
+    width: 80%;
+}
+.input{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+
+hr{
+    border: none;
+    border-bottom: 1px solid blue;
+    width: 80%;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+#resultado{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width: 900px) {
+
+    #miniCalculadora{
+        width: 400px;
+    }
+
+    #contadorNumeros{
+        width: 400px;
+    }
+
+    #projetos{
+        width: 100%
+        
+    }
+
+  }
+
+  
+@media screen and (max-width: 750px) {
+
+
+
+    #projetos{
+        width: 100%;
+        display: block; 
+    }
+
+    #miniCalculadora{
+        width: 100%;
+    }
+    #contadorNumeros{
+        width: 100%;
+    }
+
+  }
+
+
+@media screen and (min-width: 1800px) {
+
+    #miniCalculadora{
+        width: 600px;
+    }
+
+    #contadorNumeros{
+        width: 600px;
+    }
+  }
